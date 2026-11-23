@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 1000"
+     preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#b3b294"/>
+      <stop offset=".45" stop-color="#68764f"/>
+      <stop offset="1" stop-color="#213e33"/>
+    </linearGradient>
+
+    <radialGradient id="leaf">
+      <stop stop-color="#bbc59a"/>
+      <stop offset="1" stop-color="#667650"/>
+    </radialGradient>
+
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+
+    <g id="branch">
+      <path d="M390 1100 C430 820 330 620 440 340 C480 230 450 80 510 -100"
+            fill="none" stroke="#ad6866" stroke-width="18"/>
+      <g fill="url(#leaf)">
+        <ellipse cx="315" cy="825" rx="130" ry="51"
+                 transform="rotate(28 315 825)"/>
+        <ellipse cx="489" cy="718" rx="140" ry="55"
+                 transform="rotate(-28 489 718)"/>
+        <ellipse cx="300" cy="590" rx="135" ry="53"
+                 transform="rotate(32 300 590)"/>
+        <ellipse cx="520" cy="453" rx="135" ry="58"
+                 transform="rotate(-32 520 453)"/>
+        <ellipse cx="360" cy="310" rx="133" ry="54"
+                 transform="rotate(20 360 310)"/>
+        <ellipse cx="554" cy="170" rx="129" ry="50"
+                 transform="rotate(-30 554 170)"/>
+      </g>
+    </g>
+  </defs>
+
+  <path fill="url(#background)" d="M0 0h800v1000H0z"/>
+
+  <g filter="url(#blur)">
+    <ellipse cx="65" cy="170" rx="170" ry="290"
+             fill="#d0c6a5" opacity=".65"/>
+    <ellipse cx="720" cy="580" rx="180" ry="330"
+             fill="#122f2b" opacity=".8"/>
+    <use href="#branch"
+         transform="translate(-300 80) rotate(-15 400 500)"
+         opacity=".65"/>
+    <use href="#branch"
+         transform="translate(260 -90) rotate(18 400 500)"
+         opacity=".75"/>
+    <use href="#branch"/>
+  </g>
+</svg>

@@ -1,0 +1,336 @@
+{
+  "site": {
+    "name": "Sophia’s Garden",
+    "wordmarkFirst": "Sophia’s",
+    "wordmarkSecond": "Garden",
+    "url": "https://YOUR-SITE.netlify.app",
+    "description": "A quiet garden retreat in Coron, Palawan.",
+    "indexingEnabled": false,
+    "logo": "",
+    "favicon": "",
+    "socialImage": "",
+    "email": "sophiascoron@gmail.com",
+    "phone": "",
+    "location": "Coron, Palawan · Philippines",
+    "streetAddress": "Sitio Jolo, Brgy. Poblacion 5",
+    "locality": "Coron",
+    "region": "Palawan",
+    "postalCode": "5316",
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "mapUrl": "",
+    "footerText": "A boutique garden retreat.\nCoron, Palawan.",
+    "copyrightName": "Sophia’s Garden",
+    "socialLinks": [
+      {
+        "label": "Email",
+        "url": "mailto:sophiascoron@gmail.com"
+      }
+    ],
+    "navigation": [
+      { "label": "The garden", "url": "/" },
+      { "label": "Your stay", "url": "/rooms/" },
+      { "label": "At the table", "url": "/dining/" },
+      { "label": "Explore", "url": "/explore/" },
+      { "label": "Contact", "url": "/contact/" },
+      { "label": "Book your stay", "url": "/book/" }
+    ],
+    "footerLinks": [
+      { "label": "Privacy", "url": "/privacy/" },
+      { "label": "Booking information", "url": "/terms/" }
+    ]
+  },
+  "theme": {
+    "paper": "#ebe9dc",
+    "olive": "#3b452b",
+    "orange": "#df621c",
+    "blue": "#6395d8",
+    "ink": "#15121e",
+    "font": ""
+  },
+  "ui": {
+    "skipLink": "Skip to content",
+    "navigationLabel": "Main navigation",
+    "homeLabel": "Home",
+    "backToTop": "Back to the garden ↑",
+    "roomLink": "Discover this room ↗",
+    "allRooms": "All rooms",
+    "bookButton": "Book your stay ↗",
+    "contactButton": "Ask our team ↗",
+    "galleryLabel": "A closer look",
+    "mapLink": "Open directions ↗",
+    "menuDownload": "Download the menu ↗",
+    "nameLabel": "Your name",
+    "emailLabel": "Email address",
+    "messageLabel": "How can we help?",
+    "enquiryConsent": "I have read the privacy notice and understand how my enquiry will be handled.",
+    "waitlistConsent": "Please email me reopening news and opening offers. I can unsubscribe by contacting the team.",
+    "privacyLink": "Read our privacy notice",
+    "sendEnquiry": "Send enquiry",
+    "joinWaitlist": "Request opening updates",
+    "formNote": "This form does not reserve a room. Please do not include payment details or identity documents.",
+    "honeypotLabel": "Leave this field empty",
+    "footerContact": "Write to us ↗"
+  },
+  "home": {
+    "title": "A garden, quietly waiting.",
+    "seo": {
+      "title": "Sophia’s Garden — A garden retreat in Coron, Palawan",
+      "description": "Discover Sophia’s Garden in Coron, Palawan: peaceful garden stays, dining, and news of our planned reopening.",
+      "noindex": false
+    },
+    "heroImage": "/assets/garden.svg",
+    "heroAlt": "",
+    "artCaption": "Somewhere to return to.",
+    "memoryImage": "",
+    "memoryAlt": "",
+    "memoryCaption": "A little room for daydreaming.",
+    "body": "Twenty-two rooms among tropical gardens. A slow morning by the pool. A day on the water, and somewhere peaceful to come home to.",
+    "ctaLabel": "Discover your stay ↓",
+    "ctaUrl": "/rooms/",
+    "openingNote": "Preparing to welcome you back.\nAiming to reopen in early 2027.",
+    "stayHeading": "Stay a little.",
+    "stayBody": "Open the door to the garden. Find a place to settle in, slow down, and make the day your own.",
+    "highlights": [
+      {
+        "title": "In the garden",
+        "body": "A pool, shaded gazebos, and quiet corners. Leave a little of the day unplanned.",
+        "linkLabel": "Explore the retreat ↗",
+        "url": "/rooms/"
+      },
+      {
+        "title": "At the table",
+        "body": "Filipino favourites and familiar comforts at El Comidor, our open-air garden restaurant.",
+        "linkLabel": "Discover dining ↗",
+        "url": "/dining/"
+      },
+      {
+        "title": "Beyond the gate",
+        "body": "Lakes, lagoons, and days at sea. Ask our team about exploring Coron.",
+        "linkLabel": "Explore Coron ↗",
+        "url": "/explore/"
+      }
+    ],
+    "invitationTitle": "An invitation, when it’s time.",
+    "invitationBody": "We’re refreshing the rooms and tending the garden. Request an email from our team when opening news is ready.",
+    "invitationImage": "",
+    "invitationAlt": "",
+    "monogram": "SG",
+    "invitationCaption": "A memory yet to be made."
+  },
+  "roomsPage": {
+    "title": "Stay a little.",
+    "seo": {
+      "title": "Rooms & suites — Sophia’s Garden, Coron",
+      "description": "Explore the room and suite options at Sophia’s Garden in Coron, Palawan.",
+      "noindex": false
+    },
+    "body": "A quiet place between days on the water. Browse our planned room collection, then contact us for confirmed opening-season details.",
+    "note": "Opening-season rates, amenities and final room configurations will be confirmed before reservations open."
+  },
+  "rooms": [
+    {
+      "slug": "superior",
+      "title": "Superior Room",
+      "size": "19 m²",
+      "summary": "A simple retreat for two, with the garden just outside.",
+      "body": "A restful base for slow mornings and unhurried returns.\n\nPlease confirm the final bedding and amenities with our team before booking.",
+      "image": "/assets/garden.svg",
+      "imageAlt": "",
+      "amenities": [
+        { "text": "Planned double-bed layout" },
+        { "text": "Air conditioning" },
+        { "text": "Private furnished patio" }
+      ],
+      "gallery": [
+        {
+          "image": "/assets/garden.svg",
+          "alt": "",
+          "caption": "Botanical concept artwork. Room photography will follow."
+        }
+      ],
+      "seo": {
+        "title": "Superior Room — Sophia’s Garden, Coron",
+        "description": "Discover the Superior Room at Sophia’s Garden. Contact the team for confirmed reopening availability and room details.",
+        "noindex": false
+      }
+    },
+    {
+      "slug": "premier",
+      "title": "Premier Room",
+      "size": "48 m²",
+      "summary": "More space for families and friends to spend time together.",
+      "body": "Settle into a spacious garden stay.\n\nFinal occupancy, bedding options and opening-season inclusions will be confirmed before reservations open.",
+      "image": "/assets/garden.svg",
+      "imageAlt": "",
+      "amenities": [
+        { "text": "Flexible planned bedding" },
+        { "text": "Air conditioning" }
+      ],
+      "gallery": [
+        {
+          "image": "/assets/garden.svg",
+          "alt": "",
+          "caption": "Botanical concept artwork. Room photography will follow."
+        }
+      ],
+      "seo": {
+        "title": "Premier Room — Sophia’s Garden, Coron",
+        "description": "Explore the Premier Room at Sophia’s Garden, a spacious option for a Coron getaway.",
+        "noindex": false
+      }
+    },
+    {
+      "slug": "penthouse",
+      "title": "Penthouse Suite",
+      "size": "110 m²",
+      "summary": "Our most spacious stay, with room to settle in a little longer.",
+      "body": "A generous retreat with a planned private living area.\n\nContact us for confirmed suite specifications and opening-season availability.",
+      "image": "/assets/garden.svg",
+      "imageAlt": "",
+      "amenities": [
+        { "text": "Private living area" },
+        { "text": "Air conditioning" }
+      ],
+      "gallery": [
+        {
+          "image": "/assets/garden.svg",
+          "alt": "",
+          "caption": "Botanical concept artwork. Suite photography will follow."
+        }
+      ],
+      "seo": {
+        "title": "Penthouse Suite — Sophia’s Garden, Coron",
+        "description": "Discover the Penthouse Suite at Sophia’s Garden in Coron, Palawan.",
+        "noindex": false
+      }
+    }
+  ],
+  "dining": {
+    "title": "At the table.",
+    "venueName": "El Comidor",
+    "seo": {
+      "title": "El Comidor restaurant & café — Sophia’s Garden, Coron",
+      "description": "Discover El Comidor, the garden restaurant at Sophia’s Garden in Coron. Opening menus and hours will be announced.",
+      "noindex": false
+    },
+    "body": "Filipino favourites and familiar comforts, served with a little room to linger.\n\nOur garden restaurant and café will return with a refreshed menu.",
+    "heroImage": "/assets/garden.svg",
+    "heroAlt": "",
+    "hoursHeading": "Opening hours",
+    "hours": "Reopening hours will be announced.",
+    "menuHeading": "From the kitchen",
+    "menuNote": "Our reopening menu is being prepared. Ask the team about dietary requirements and allergens.",
+    "menuPdf": "",
+    "menuSections": [
+      {
+        "title": "Something to look forward to",
+        "items": [
+          {
+            "name": "Opening menu",
+            "description": "Dishes, drinks and confirmed prices will be published here.",
+            "price": ""
+          }
+        ]
+      }
+    ],
+    "gallery": [
+      {
+        "image": "/assets/garden.svg",
+        "alt": "",
+        "caption": "Botanical concept artwork. Restaurant photography will follow."
+      }
+    ]
+  },
+  "booking": {
+    "title": "Your next garden memory.",
+    "seo": {
+      "title": "Book your stay — Sophia’s Garden, Coron",
+      "description": "Book directly with Sophia’s Garden using our official booking engine when reservations open.",
+      "noindex": false
+    },
+    "body": "Check confirmed availability and rates through our official booking engine.",
+    "enabled": false,
+    "mode": "link",
+    "propertyCode": "",
+    "bookingUrl": "",
+    "closedMessage": "Reservations are not open yet. Please contact our team or request opening updates.",
+    "externalLabel": "Open our secure booking engine ↗",
+    "loadLabel": "Load secure booking engine",
+    "embedNotice": "Loading the booking engine connects to Cloudbeds, which handles availability, reservations and payment information. Its own privacy and cookie practices apply.",
+    "errorMessage": "The embedded booking engine could not be loaded. Please use the direct booking link or contact our team.",
+    "policyText": "Review the rate-specific payment and cancellation terms shown before confirming your reservation."
+  },
+  "explore": {
+    "title": "Beyond the gate.",
+    "seo": {
+      "title": "Explore Coron, Palawan — Sophia’s Garden",
+      "description": "Plan days around Coron from Sophia’s Garden, with practical travel information and answers from our team.",
+      "noindex": false
+    },
+    "body": "Lakes, lagoons, island days, and the comfort of coming back to the garden.\n\nAsk our team about locally operated excursions, transfers and current conditions. Activities and availability are confirmed separately.",
+    "heroImage": "/assets/garden.svg",
+    "heroAlt": "",
+    "faqHeading": "A few things to know",
+    "faqs": [
+      {
+        "question": "Where is Sophia’s Garden?",
+        "answer": "Sophia’s Garden is in Coron, Palawan, Philippines. See the contact page for the property address and ask our team for current arrival guidance."
+      },
+      {
+        "question": "When will reservations reopen?",
+        "answer": "The planned reopening is in early 2027, subject to confirmation. Request opening updates or contact the team for the latest information."
+      },
+      {
+        "question": "Can the team help with excursions?",
+        "answer": "Contact the team to discuss locally available excursions. Operators, weather conditions, prices and availability are confirmed separately."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Write to the garden.",
+    "seo": {
+      "title": "Contact & location — Sophia’s Garden, Coron",
+      "description": "Contact Sophia’s Garden in Coron, Palawan for reopening enquiries, room information and arrival guidance.",
+      "noindex": false
+    },
+    "body": "A question about your stay, a future visit, or time at the table? Send our team a note.",
+    "formHeading": "Send an enquiry"
+  },
+  "privacy": {
+    "title": "Privacy notice",
+    "seo": {
+      "title": "Privacy notice — Sophia’s Garden",
+      "description": "Information about enquiries and personal information submitted through the Sophia’s Garden website.",
+      "noindex": false
+    },
+    "body": "## Draft — complete before launch\n\nThis notice must be reviewed and completed by the resort operator before collecting real enquiries.\n\n## Who operates this website\n\nAdd the full legal business name, address and privacy contact.\n\n## Information you submit\n\nOur enquiry form requests your name, email address and message. Our opening-updates form requests your name, email address and permission to send opening news.\n\n## Service providers\n\nWebsite forms are processed using Netlify. Website code and public media are stored using GitHub. If you load or visit our booking engine, Cloudbeds processes booking information under the applicable booking and privacy terms.\n\n## Retention and your rights\n\nSpecify your retention periods, applicable rights, international processing arrangements and how visitors can request access, correction, deletion or withdrawal of marketing permission.\n\n## Cookies and external services\n\nThis starter website does not load advertising or analytics tags. The booking engine may use its own cookies and storage when loaded. Update this notice and your consent implementation before adding analytics or advertising."
+  },
+  "terms": {
+    "title": "Booking information",
+    "seo": {
+      "title": "Booking information — Sophia’s Garden",
+      "description": "Read important information before reserving a stay at Sophia’s Garden in Coron.",
+      "noindex": false
+    },
+    "body": "## Draft — complete before accepting bookings\n\nPublish the resort’s approved check-in and check-out times, child and extra-guest policies, accessibility information, payment rules, cancellation terms, refund rules and contact information.\n\nAvailability and rates are confirmed through the official booking engine. An enquiry or opening-updates request does not create a reservation.\n\nRate-specific terms shown during the booking process should be reviewed before confirming a reservation."
+  },
+  "thanks": {
+    "title": "Your message has been sent.",
+    "seo": {
+      "title": "Thank you — Sophia’s Garden",
+      "description": "Thank you for contacting Sophia’s Garden.",
+      "noindex": true
+    },
+    "body": "Thank you for getting in touch. Our team will review your message.\n\nThis confirmation is not a room reservation."
+  },
+  "notFound": {
+    "title": "A little off the garden path.",
+    "seo": {
+      "title": "Page not found — Sophia’s Garden",
+      "description": "Return to the Sophia’s Garden homepage.",
+      "noindex": true
+    },
+    "body": "We could not find that page. Return to the garden or contact our team."
+  }
+}

@@ -1,0 +1,15 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+{% if build.isProduction and resort.site.indexingEnabled %}
+Allow: /
+Disallow: /admin/
+Disallow: /.netlify/functions/
+Disallow: /thanks/
+Disallow: /content-model.json
+Sitemap: {{ "/sitemap.xml" | absolute(resort.site.url) }}
+{% else %}
+Disallow: /
+{% endif %}

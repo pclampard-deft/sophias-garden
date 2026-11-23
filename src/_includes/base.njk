@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ route.data.seo.title }}</title>
+  <meta name="description" content="{{ route.data.seo.description }}">
+
+  {% set canIndex = build.isProduction
+    and resort.site.indexingEnabled
+    and not route.data.seo.noindex %}
+
+  <meta name="robots"
+        content="{% if canIndex %}index,follow,max-image-preview:large{% else %}noindex,follow{% endif %}">
+
+  <link rel="canonical"
+        href="{{ route.url | absolute(resort.site.url) }}">
+
+  <meta name="theme-color" content="{{ resort.theme.paper | hex }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ resort.site.name }}">
+  <meta property="og:title" content="{{ route.data.seo.title }}">
+  <meta property="og:description" content="{{ route.data.seo.description }}">
+  <meta property="og:url"
+        content="{{ route.url | absolute(resort.site.url) }}">
+
+  {% set socialImage = route.data.image or resort.site.socialImage %}
+
+  {% if socialImage %}
+    <meta property="og:image"
+          content="{{ socialImage | absolute(resort.site.url) }}">
+    <meta name="twitter:card" content="summary_large_image">
+  {% else %}
+    <meta name="twitter:card" content="summary">
+  {% endif %}
+
+  {% if resort.site.favicon %}
+    <link rel="icon" href="{{ resort.site.favicon | asset }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="/assets/style.css">
+
+  <style>
+    :root {
+      --paper: {{ resort.theme.paper | hex }};
+      --olive: {{ resort.theme.olive | hex }};
+      --orange: {{ resort.theme.orange | hex }};
+      --blue: {{ resort.theme.blue | hex }};
+      --ink: {{ resort.theme.ink | hex }};
+    }
+
+    {% if resort.theme.font %}
+      @font-face {
+        font-family: "BrandSerif";
+        src: url("{{ resort.theme.font | asset }}") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      :root {
+        --serif: "BrandSerif", Georgia, "Times New Roman", serif;
+      }
+    {% endif %}
+  </style>
+
+  {% if canIndex %}
+    <script type="application/ld+json">
+      {{ route | structuredData(resort) | jsonScript | safe }}
+    </script>
+  {% endif %}
+</head>
+
+<body id="top">
+  <a class="skip-link" href="#main">{{ resort.ui.skipLink }}</a>
+
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="{{ resort.site.name }}">
+      {% if resort.site.logo %}
+        <img src="{{ resort.site.logo | asset }}"
+             alt="{{ resort.site.name }}"
+             width="220"
+             height="70">
+      {% else %}
+        {{ resort.site.name }}
+      {% endif %}
+    </a>
+
+    <nav aria-label="{{ resort.ui.navigationLabel }}">
+      {% for item in resort.site.navigation %}
+        <a href="{{ item.url | safeHref }}"
+           {% if route.url == item.url %}aria-current="page"{% endif %}>
+          {{ item.label }}
+        </a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <p class="preserve-lines">{{ resort.site.footerText }}</p>
+
+      <address>
+        {{ resort.site.streetAddress }}<br>
+        {{ resort.site.locality }}, {{ resort.site.region }}
+        {{ resort.site.postalCode }}<br>
+        {{ resort.site.countryName }}
+      </address>
+
+      <div>
+        <a href="mailto:{{ resort.site.email }}">
+          {{ resort.ui.footerContact }}
+        </a>
+
+        {% if resort.site.phone %}
+          <p><a href="tel:{{ resort.site.phone }}">{{ resort.site.phone }}</a></p>
+        {% endif %}
+
+        {% for link in resort.site.socialLinks %}
+          <p><a href="{{ link.url | safeHref }}">{{ link.label }}</a></p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="footer-wordmark" aria-hidden="true">
+      <span>{{ resort.site.wordmarkFirst }}</span>
+      <span>{{ resort.site.wordmarkSecond }}</span>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© {{ build.year }} {{ resort.site.copyrightName }}</p>
+
+      <div class="footer-links">
+        {% for link in resort.site.footerLinks %}
+          <a href="{{ link.url | safeHref }}">{{ link.label }}</a>
+        {% endfor %}
+        <a href="#top">{{ resort.ui.backToTop }}</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

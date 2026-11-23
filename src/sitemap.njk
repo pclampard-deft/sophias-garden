@@ -1,0 +1,16 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% if build.isProduction and resort.site.indexingEnabled %}
+{% for item in routes %}
+{% if not item.data.seo.noindex %}
+  <url>
+    <loc>{{ item.url | absolute(resort.site.url) }}</loc>
+  </url>
+{% endif %}
+{% endfor %}
+{% endif %}
+</urlset>
