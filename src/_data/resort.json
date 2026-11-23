@@ -181,8 +181,8 @@
   "rooms": [
     {
       "size": "19 m²",
-      "body": "A restful base for slow mornings and unhurried returns.\n\nPlease confirm the final bedding and amenities with our team before booking.",
-      "summary": "A simple retreat for two, with the garden just outside.",
+      "body": "A place to put down your bags and take the day a little slower. Our 19 m² Superior Twin has two single beds and a terrace with garden views, a comfortable base for friends or travel companions discovering Coron.\n\nHead out for a day on the water, or keep your plans closer to the pool. Come evening, return to your own quiet corner of Sophia’s Garden.",
+      "summary": "A simple retreat to share, with twin beds and a terrace looking onto the garden.",
       "slug": "superior-twin",
       "imageAlt": "",
       "gallery": [
@@ -207,14 +207,14 @@
       "image": "/assets/garden.svg",
       "seo": {
         "title": "Superior Room — Sophia’s Garden, Coron",
-        "description": "Discover the Superior Room at Sophia’s Garden. Contact the team for confirmed reopening availability and room details.",
+        "description": "Stay in the Superior Twin at Sophia’s Garden in Coron, Palawan. A 19 m² room with two single beds, a terrace and garden views.",
         "noindex": false
       }
     },
     {
-      "size": "48 m²",
-      "body": "Settle into a spacious garden stay.\n\nFinal occupancy, bedding options and opening-season inclusions will be confirmed before reservations open.",
-      "summary": "More space for families and friends to spend time together.",
+      "size": "19 m²",
+      "body": "Simple, comfortable, and easy to settle into. Our 19 m² Superior Double pairs a double bed with a terrace overlooking the garden.\n\nStart your morning slowly before heading out to explore Coron. Whether the day takes you to the lagoons or no further than the pool, there’s somewhere peaceful to come back to.",
+      "summary": "A cosy room for two, with a double bed and a little space beside the garden.",
       "slug": "superior-double",
       "imageAlt": "",
       "gallery": [
@@ -236,14 +236,14 @@
       "image": "/assets/garden.svg",
       "seo": {
         "title": "Premier Room — Sophia’s Garden, Coron",
-        "description": "Explore the Premier Room at Sophia’s Garden, a spacious option for a Coron getaway.",
+        "description": "Discover the Superior Double at Sophia’s Garden in Coron, Palawan. A cosy 19 m² room with a double bed, a terrace and garden views.",
         "noindex": false
       }
     },
     {
-      "size": "110 m²",
-      "body": "A generous retreat with a planned private living area.\n\nContact us for confirmed suite specifications and opening-season availability.",
-      "summary": "Our most spacious stay, with room to settle in a little longer.",
+      "size": "48 m²",
+      "body": "Space to unpack and make yourself at home. Our 48 m² Deluxe Room brings together a queen bed and a single bed, with a balcony looking onto the garden.\n\nIt’s an easy place to share with family or friends, between island outings and unhurried meals at El Comidor. Leave a little time for the garden, too.",
+      "summary": "Our most spacious stay, with room to settle in a little longer with a queen bed, a single bed, and garden views.",
       "slug": "deluxe",
       "imageAlt": "",
       "gallery": [
@@ -265,7 +265,7 @@
       "image": "/assets/garden.svg",
       "seo": {
         "title": "Penthouse Suite — Sophia’s Garden, Coron",
-        "description": "Discover the Penthouse Suite at Sophia’s Garden in Coron, Palawan.",
+        "description": "Explore the 48 m² Deluxe Room at Sophia’s Garden in Coron, Palawan, with a queen bed, a single bed, a balcony and garden views.",
         "noindex": false
       }
     },
@@ -273,39 +273,39 @@
       "seo": {
         "noindex": false,
         "title": "Premier Deluxe Room",
-        "description": "For the best of the best."
+        "description": "Stay together in the 48 m² Premier Deluxe Quad at Sophia’s Garden, Coron. Two single beds, a bunk bed, a balcony and garden views."
       },
       "slug": "premier-deluxe",
       "title": "Premier Deluxe Quad",
-      "size": "110 m²",
-      "summary": "Its a big one!",
-      "body": "A big room.",
+      "size": "48 m²",
+      "summary": "A shared stay for four, with twin beds, a bunk bed, and a balcony above the garden.",
+      "body": "For trips with friends and family days away. Our 48 m² Premier Deluxe Quad has two single beds and a bunk bed, giving four guests a comfortable place to return to after exploring Coron.\n\nEnjoy the garden views from your balcony, gather for a meal, and make tomorrow’s plans together. Some days are best when there’s someone to share them with.",
       "image": "/uploads/placeholder-room.png"
     },
     {
       "seo": {
         "noindex": false,
         "title": "Family Room",
-        "description": "For the whole family."
+        "description": "Make yourself at home in the 48 m² Family Room at Sophia’s Garden, Coron. Two queen beds, a balcony, and views of the pool or garden."
       },
       "slug": "family",
       "title": "Family Room",
-      "size": "110 m²",
-      "summary": "For the whole fam!",
-      "body": "A big room.",
+      "size": "48 m²",
+      "summary": "Room for four to make themselves at home, with two queen beds and a private balcony.",
+      "body": "A comfortable place for the whole day’s stories. Our 48 m² Family Room has two queen beds and a balcony overlooking the pool or garden, with space for up to four guests.\n\nSpend your days exploring Coron together or enjoying a slower afternoon at the resort. When it’s time to come in, settle down, and start thinking about tomorrow, your room is ready.",
       "image": "/uploads/placeholder-room.png"
     },
     {
       "seo": {
         "noindex": false,
         "title": "Honeymoon Room",
-        "description": "For you and your loved one."
+        "description": "Enjoy time for two in the 48 m² Honeymoon Room at Sophia’s Garden, Coron, with a king bed, a balcony and views of the pool or garden."
       },
       "slug": "honeymoon",
       "title": "Honeymoon Room",
-      "size": "110 m²",
-      "summary": "For your honeymoon!",
-      "body": "A big room.",
+      "size": "48 m²",
+      "summary": "A little time for two, with a king bed and a balcony overlooking the pool or garden.",
+      "body": "For a new beginning, an anniversary, or simply time away together. Our 48 m² Honeymoon Room offers a king bed and a balcony with views of the pool or garden.\n\nEase into the morning, spend the day discovering Coron, and return for a quiet evening at Sophia’s Garden. There’s room to slow down and enjoy each other’s company.",
       "image": "/uploads/placeholder-room.png"
     }
   ],
